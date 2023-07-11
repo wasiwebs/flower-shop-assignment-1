@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.hero {
+  padding: 0px 150px 0 150px;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+}
+
+.hero-image {
+  height: 650px;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 65px;
+  color: rgba(39, 39, 39, 1);
+}
+
+.hero-subheading {
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.hero-button {
+  padding: 15px 40px;
+  background-color: #e55473;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  width: fit-content;
+}
+
+.feature {
+  padding: 0 150px;
+}
+
+.feature-heading {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 100px 200px 50px 200px;
+}
+
+.feature-heading h1 {
+  line-height: 0.1;
+  color: rgba(39, 39, 39, 1);
+}
+.feature-heading p {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.feature-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature-image-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.feature-image-div a {
+  padding-top: 20px;
+  border-bottom: #111010 1px solid;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.feature-image-div-div-1 {
+  background: rgba(167, 33, 98, 0.15);
+  display: inline-block;
+  border-radius: 250px 250px 0 0;
+  padding: 40px 40px 0 40px;
+  /* width: 280px; */
+}
+.feature-image-div-div-2 {
+  background: rgba(5, 151, 160, 0.15);
+  display: inline-block;
+  border-radius: 250px 250px 0 0;
+  padding: 40px 40px 0 40px;
+  /* width: 280px; */
+}
+.feature-image-div-div-3 {
+  background: rgba(71, 125, 17, 0.15);
+  display: inline-block;
+  border-radius: 250px 250px 0 0;
+  padding: 40px 40px 0 40px;
+  /* width: 280px; */
+}
+
+.feature-image {
+  height: 320px;
+  width: 220px;
+}
+
+.process {
+  background: rgba(39, 39, 39, 0.05);
+  margin: 65px 150px;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.process div {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 15px;
+}
+
+.process div img {
+  width: 80px;
+}
+
+.hot-deal {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  padding: 50px 220px;
+}
+
+.hot-deal div {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+}
+
+.hot-deal div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hot-deal div div h1 span {
+  color: #e55473;
+}
+.hot-deal div div h1 {
+  line-height: 0.1;
+  color: rgba(39, 39, 39, 1);
+}
+.hot-deal div div p {
+  text-align: center;
+  margin: 2% 10%;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.hot-deal div button {
+  width: fit-content;
+}
+
+/* instagram */
+
+.instagram {
+  /* padding: 50px 0; */
+  margin: 50px 150px;
+}
+
+.instagram-heading {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 100px 200px 50px 200px;
+}
+
+.instagram-heading h1 {
+  line-height: 0.1;
+  color: rgba(39, 39, 39, 1);
+}
+.instagram-heading p {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.instagram-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-images img {
+  width: 240px;
+}
+
+.get-in-touch {
+  background-image: url("asset/Rectangle\ 9.png");
+  padding: 50px 0;
+  margin: 50px 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.get-in-touch div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-in-touch div h1 {
+  line-height: 0.2;
+  color: rgba(39, 39, 39, 1);
+}
+
+.get-in-touch div p {
+  margin-bottom: 20px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.get-in-touch div div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.get-in-touch div div input {
+  border: none;
+  padding: 12px 10px;
+  width: 520px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.subscribe-button {
+  padding: 15px 20px;
+  background-color: #e55473;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin-left: 5px;
+}
+
+.footer {
+  background: #111010;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer div h1 {
+  color: white;
+  text-align: center;
+}
+.footer div h1 span {
+  color: #e55473;
+}
+
+.footer-heading {
+  color: #ffffff;
+}
+
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
